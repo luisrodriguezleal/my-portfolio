@@ -4,12 +4,10 @@ export default class About extends Component {
     render () {
 
     	if (this.props.data) {
-    		var name = this.props.data.name;
     		var bio = this.props.data.bio;
 		    var state = this.props.data.address.state;
 		    var zip = this.props.data.address.zip;
 		    var email = this.props.data.email;
-		    var message = this.props.data.contactmessage;
     	}
 
     	return (
