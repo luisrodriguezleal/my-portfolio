@@ -8,7 +8,6 @@ import Resume from './Components/Resume';
 import Portfolio from './Components/Portfolio';
 import ContactMessage from './Components/ContactMessage';
 import Contact from './Components/Contact';
-import './App.css';
 
 library.add(fab)
 
