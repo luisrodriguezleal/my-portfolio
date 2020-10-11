@@ -1,0 +1,99 @@
+{
+	"main": {
+		"name": "Luis Rodríguez Leal",
+		"occupation": "Designer & Front-End Developer",
+		"description": "¿Do you like to code? me too jeje",
+		"bio": "My name is Luis, i'm a Front-End Developer. Currently i'm working at my own projects while i'm learning",
+		"contactmessage": "feel free to take a look at my latest projects on the web",
+		"email": "siulurola@gmail.com",
+		"phone": "+58 424 360 92 89",
+		"address": {
+			"street": "Av. Francisco de Miranda",
+			"city": "Maracay",
+			"state": "Venezuela",
+			"zip": "2103"
+		},
+		"social": [
+			{
+				"name": "instagram",
+				"url": "http://www.instagram.com/siulurola/",
+				"image": "instagram"
+			},
+			{
+				"name": "twitter",
+				"url": "http://www.twitter.com/siulurola/",
+				"image": "twitter"
+			},
+			{
+				"name": "github",
+				"url": "http://www.github.com/luisrodriguezleal/",
+				"image": "github"
+			},
+			{
+				"name": "stackoverflow",
+				"url": "http://www.stackoverflow.com/",
+				"image": "stack-overflow"
+			}
+		]
+	},
+	"resume": {
+		"education": {
+				"school":"IUTA",
+				"degree": "TSU. Informática",
+				"graduated": "January 2020",
+				"description": "Graduated with Distinction"
+		},
+		"skills": [
+			{
+				"name": "ReactJS",
+				"level": 60
+			},
+			{
+				"name": "CSS",
+				"level": 100
+			},
+			{
+				"name": "HTML",
+				"level": 80
+			},
+			{
+				"name": "JavaScript",
+				"level": 90
+			},
+			{
+				"name": "Bootstrap",
+				"level": 75
+			},
+			{
+				"name": "SQL",
+				"level": 80
+			},
+			{
+				"name": "Vue",
+				"level": 50
+			}
+		]
+	},
+	"portfolio": {
+		"projects": [
+			{
+				"title": "Minimalism Stopwacth",
+				"category": "Stopwacth with ReactJS",
+				"image": "3.png",
+				"url": "https://www.Minimalismstopwatch.netlify.app"
+			},
+			{
+				"title": "React, Vue, Angular tips",
+				"category": "infography about React, Vue, Angular",
+				"image": "1.png",
+				"url": "https://www.rva.netlify.app"
+			},
+			{
+				"title": "Simple form",
+				"category": "Simple form built with ReactJS",
+				"image": "2.png",
+				"url": "https://www.formapp.netlify.app"
+			}
+		]
+	}
+}
