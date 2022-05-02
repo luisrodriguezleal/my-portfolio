@@ -6,7 +6,8 @@ export default class Portfolio extends Component {
     	if(this.props.data) {
     		var projects = this.props.data.projects.map((pro) => {
     			var img_project = 'images/portfolio/'+pro.image;
-    			return <div key={pro.title} className="d-flex flex-row justify-content-center">
+    			return (
+				<div key={pro.title} className="d-flex flex-column text-center m-2 ">
 	    			<div>
 	    				<h1>{pro.title}</h1>
 	    				<h4>{pro.category}</h4>
@@ -16,17 +17,17 @@ export default class Portfolio extends Component {
 	    					<img src={img_project} alt={pro.title} className="img-responsive" width="256"/>
 	    				</a>
 	    			</div>
-    			</div>
+    			</div>);
     		})
     	}
 
     	return (
-    		<section id="#portfolio">
+    		<section id="portfolio">
 	    		<div className="bg-light p-5">
 	    			<div className="pb-5 mt-4 border-bottom">
 	    				<h1>Check out some of my works</h1>
 	    			</div>
-	    			<div className="d-flex justify-content-between my-5">
+	    			<div className="d-flex fixed-view justify-content-center my-5"> 
 	    				{projects}
 	    			</div>
 	    		</div>

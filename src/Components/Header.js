@@ -14,22 +14,22 @@ export default class Header extends Component {
         return (
         	<header id="home" className="shadow-lg">
 
-        		<nav>
-        			<ul className="list-group list-group-horizontal bg-dark">
+        		<nav className="fixed-top">
+        			<ul className="list-group list-group-horizontal bg-dark d-flex justify-content-center py-3">
         				<li className="list-group-item bg-transparent">
-        					<a href="#home" className="list-group-link">home</a>
+        					<a href="#home" className="list-group-link"><i class="fas fa-home px-2"></i>home</a>
         				</li>
         				<li className="list-group-item bg-transparent">
-        					<a href="#about" className="list-group-link">about</a>
+        					<a href="#about" className="list-group-link"><i class="fas fa-user px-2"></i>about</a>
         				</li>
         				<li className="list-group-item bg-transparent">
-        					<a href="#resume" className="list-group-link">resume</a>
+        					<a href="#resume" className="list-group-link"><i class="fas fa-file-alt px-2"></i>resume</a>
         				</li>
         				<li className="list-group-item bg-transparent">
-        					<a href="#portfolio" className="list-group-link">portfolio</a>
+        					<a href="#portfolio" className="list-group-link"><i class="fas fa-folder-open px-2"></i>projects</a>
         				</li>
         				<li className="list-group-item bg-transparent">
-        					<a href="#contact" className="list-group-link">contact</a>
+        					<a href="#contact" className="list-group-link"><i class="fas fa-address-card px-2"></i>contact</a>
         				</li>
         			</ul>
         		</nav>
